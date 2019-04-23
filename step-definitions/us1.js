@@ -26,7 +26,7 @@ module.exports = function(){
     
 
       this.Then(/^I can see my accountpage$/, async function () {       
-        
+       // await drive.getElement(By.css('[data-target = #addAccountModel"]'))
         await sleep(3000);
       });
 

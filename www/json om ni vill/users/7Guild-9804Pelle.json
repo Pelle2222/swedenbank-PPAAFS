@@ -1,0 +1,49 @@
+{
+  "data": {
+    "username": "7Guild",
+    "myFile": "users/7Guild-9804Pelle",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 11800,
+        "history": [
+          {
+            "label": "",
+            "amount": -200,
+            "time": "2019-04-17 00:16"
+          }
+        ],
+        "accountNumber": "2771-940264",
+        "⚙": "Account"
+      },
+      {
+        "name": "Kortsaldo",
+        "balance": 5200,
+        "history": [
+          {
+            "label": "",
+            "amount": 200,
+            "time": "2019-04-17 00:17"
+          }
+        ],
+        "accountNumber": "8882-730758",
+        "⚙": "Account"
+      },
+      {
+        "name": "Slösa",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "5922-575585",
+        "⚙": "Account"
+      },
+      {
+        "name": "Kortkonto",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "1516-378011",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

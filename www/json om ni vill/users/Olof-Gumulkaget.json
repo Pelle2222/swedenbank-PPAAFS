@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "Olof",
+    "myFile": "users/Olof-Gumulkaget",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 1200,
+        "history": [],
+        "accountNumber": "7831-329257",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

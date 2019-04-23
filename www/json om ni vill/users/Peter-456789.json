@@ -1,0 +1,35 @@
+{
+  "data": {
+    "username": "Peter",
+    "myFile": "users/Peter-456789",
+    "accounts": [
+      {
+        "name": "Test",
+        "balance": 300,
+        "history": [
+          {
+            "label": "Test",
+            "amount": 100,
+            "time": "2019-04-16 22:46"
+          }
+        ],
+        "accountNumber": "4421-674474",
+        "⚙": "Account"
+      },
+      {
+        "name": "Nytt",
+        "balance": 400,
+        "history": [
+          {
+            "label": "Test",
+            "amount": -100,
+            "time": "2019-04-16 22:46"
+          }
+        ],
+        "accountNumber": "2720-513590",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

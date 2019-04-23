@@ -1,0 +1,23 @@
+{
+  "data": {
+    "username": "Oves",
+    "myFile": "users/Oves-111111",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 1200,
+        "history": [],
+        "accountNumber": "6900-142979",
+        "⚙": "Account"
+      },
+      {
+        "name": "Apa",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "8376-022533",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
