@@ -1,0 +1,844 @@
+[
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-log-in-with-username-\"pelle\"-and-password-\"123456\"",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I log in with username \"Pelle\" and password \"123456\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the logging page",
+            "result": {
+              "status": "passed",
+              "duration": 4611255420
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us1.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the username \"Pelle\"",
+            "result": {
+              "status": "passed",
+              "duration": 1327010
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us1.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the password \"123456\"",
+            "result": {
+              "status": "passed",
+              "duration": 645757
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us1.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the loggainbutton",
+            "result": {
+              "status": "passed",
+              "duration": 1034494
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us1.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see my accountpage",
+            "result": {
+              "status": "passed",
+              "duration": 3002753663
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us1.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 289128613
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us1.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to have my salary transfered 22000 kronor to my Lönekonto - 9170-843779",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in as Arne",
+            "result": {
+              "status": "passed",
+              "duration": 5804016097
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the simulate-page",
+            "result": {
+              "status": "passed",
+              "duration": 78397923
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter my Lönekonto - 9170-843779 from dropdownmeny",
+            "result": {
+              "status": "passed",
+              "duration": 3011010375
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter insättning from dropdownmeny",
+            "result": {
+              "status": "passed",
+              "duration": 4006542248
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter an amount of 22000 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 3001611827
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write a message - Lön 22000 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 3001188022
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the Utför button to transfer the money",
+            "result": {
+              "status": "passed",
+              "duration": 4001007553
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "22000 kronor is transfered to Arnes Lönekonto",
+            "result": {
+              "status": "passed",
+              "duration": 6078307688
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us2.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 344972501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us2.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I buy something at ICA for 105kr and that amount substracts from Kortkonto - 7687-020127",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in as Pelle",
+            "result": {
+              "status": "passed",
+              "duration": 6188662470
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the simulate-page",
+            "result": {
+              "status": "passed",
+              "duration": 85466186
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter my Kortkonto - 7687-020127 from dropdownmeny",
+            "result": {
+              "status": "passed",
+              "duration": 4009934825
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter uttag from dropdownmeny",
+            "result": {
+              "status": "passed",
+              "duration": 4016611357
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter a amount of 105 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 3018283911
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write a message - ICA handlat för 105 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 3015983561
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the Utför button",
+            "result": {
+              "status": "passed",
+              "duration": 4002284099
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the money is substracted from the account",
+            "result": {
+              "status": "passed",
+              "duration": 6104493786
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us3.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 317604797
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us3.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I transfer 200kr from Kortkonto - 7687-020127 to Slösa - 9324-506032",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in as Pelle",
+            "result": {
+              "status": "passed",
+              "duration": 5706299768
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the 'Överföring mina konton' page",
+            "result": {
+              "status": "passed",
+              "duration": 1076601349
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter my Kortkonto - 1112-491580 from my give-konto",
+            "result": {
+              "status": "passed",
+              "duration": 3006724856
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter 200 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 3001551100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter my Slösa - 9324-506032 konto to my get-konto",
+            "result": {
+              "status": "passed",
+              "duration": 3017458539
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write a message - 200 kronor från kortkonto till slösa kontot",
+            "result": {
+              "status": "passed",
+              "duration": 3014187415
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the 'Utför' button",
+            "result": {
+              "status": "passed",
+              "duration": 4014189554
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the money is tranfered",
+            "result": {
+              "status": "passed",
+              "duration": 6077061078
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 249206703
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us4.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to create an account and call it Lönekonto rename the account to Sparkonto and then delete the Sparkonto-account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in as Pelle",
+            "result": {
+              "status": "passed",
+              "duration": 5955084376
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the my-accounts page",
+            "result": {
+              "status": "passed",
+              "duration": 1062976727
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose to create a new account",
+            "result": {
+              "status": "passed",
+              "duration": 3002635631
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "call the account Lönekonto",
+            "result": {
+              "status": "passed",
+              "duration": 547825
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Lönekonto is created",
+            "result": {
+              "status": "passed",
+              "duration": 4023666789
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose to change the name of the account",
+            "result": {
+              "status": "passed",
+              "duration": 3016043860
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "rename it to Sparkonto",
+            "result": {
+              "status": "passed",
+              "duration": 1930429
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the account is changed to Sparkonto",
+            "result": {
+              "status": "passed",
+              "duration": 4019460814
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose to delete the Sparkonto",
+            "result": {
+              "status": "passed",
+              "duration": 4005013386
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Sparkonto account is deleted",
+            "result": {
+              "status": "passed",
+              "duration": 4013028901
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us7.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 275668636
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us7.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to tranfer 189kr from Pelles Kortkonto - 7687-020127 to Olofs account 7831-329257",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have logged in as Pelle",
+            "result": {
+              "status": "passed",
+              "duration": 5797808275
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us4.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the transfer page",
+            "result": {
+              "status": "passed",
+              "duration": 1076881035
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I choose Kortkonto - 7687-020127 from dropdownmeny",
+            "result": {
+              "status": "passed",
+              "duration": 3009825773
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I choose option from other accounts",
+            "result": {
+              "status": "passed",
+              "duration": 3028608329
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter Olofs account 7831-329257",
+            "result": {
+              "status": "passed",
+              "duration": 3024093587
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the amount of 189 kronor to transfer",
+            "result": {
+              "status": "passed",
+              "duration": 3022564297
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write a message - Olof, här får du 189 kronor från Pelle",
+            "result": {
+              "status": "passed",
+              "duration": 3012227905
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button Utför",
+            "result": {
+              "status": "passed",
+              "duration": 5016513424
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the money is substracted from Pelles account",
+            "result": {
+              "status": "passed",
+              "duration": 5073284039
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I login as Olof",
+            "result": {
+              "status": "passed",
+              "duration": 4061401251
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify if the money is tranfered to Olofs account",
+            "result": {
+              "status": "passed",
+              "duration": 5013411651
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\step-definitions\\us9.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 263093476
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\JavaScript\\Bank-master\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "swedenbank",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Swedenbank",
+    "tags": [],
+    "uri": "C:/JavaScript/Bank-master/Bank-master/features/us9.feature"
+  }
+]
