@@ -2,138 +2,174 @@
 <testsuites>
     <testsuite name="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us1.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us1.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="4.61125542">
+        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="4.084343536">
         </testcase>
-        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.00132701">
+        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.000966382">
         </testcase>
-        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.000645757">
+        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.000494496">
         </testcase>
-        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.001034494">
+        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.000776388">
         </testcase>
-        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="3.002753663">
+        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="3.013191282">
         </testcase>
     </testsuite>
     <testsuite name="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us2.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us2.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Arne" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="5.804016097">
+        <testcase name="Given I have logged in as Arne" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.882886306">
         </testcase>
-        <testcase name="And I am on the simulate-page" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="0.078397923">
+        <testcase name="And I am on the simulate-page" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="0.037249058">
         </testcase>
-        <testcase name="When I enter my Lönekonto - 9170-843779 from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.011010375">
+        <testcase name="When I enter my Lönekonto - 9170-843779 from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.001237698">
         </testcase>
-        <testcase name="And I enter insättning from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.006542248">
+        <testcase name="And I enter insättning from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.026005858">
         </testcase>
-        <testcase name="And I enter an amount of 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.001611827">
+        <testcase name="And I enter an amount of 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.003214218">
         </testcase>
-        <testcase name="And I write a message - Lön 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.001188022">
+        <testcase name="And I write a message - Lön 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="3.013883428">
         </testcase>
-        <testcase name="And I click on the Utför button to transfer the money" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.001007553">
+        <testcase name="And I click on the Utför button to transfer the money" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.012601606">
         </testcase>
-        <testcase name="Then 22000 kronor is transfered to Arnes Lönekonto" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="6.078307688">
+        <testcase name="Then 22000 kronor is transfered to Arnes Lönekonto" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="6.084566714">
         </testcase>
     </testsuite>
     <testsuite name="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us3.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us3.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="6.18866247">
+        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.89587337">
         </testcase>
-        <testcase name="And I am on the simulate-page" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="0.085466186">
+        <testcase name="And I am on the simulate-page" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="0.032410958">
         </testcase>
-        <testcase name="When I enter my Kortkonto - 7687-020127 from dropdownmeny" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.009934825">
+        <testcase name="When I enter my Kortkonto - 7687-020127 from dropdownmeny" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.014296238">
         </testcase>
-        <testcase name="And I enter uttag from dropdownmeny" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.016611357">
+        <testcase name="And I enter uttag from dropdownmeny" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.02443266">
         </testcase>
-        <testcase name="And I enter a amount of 105 kronor" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="3.018283911">
+        <testcase name="And I enter a amount of 105 kronor" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="3.010308914">
         </testcase>
-        <testcase name="And I write a message - ICA handlat för 105 kronor" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="3.015983561">
+        <testcase name="And I write a message - ICA handlat för 105 kronor" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="3.019479322">
         </testcase>
-        <testcase name="And I click on the Utför button" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.002284099">
+        <testcase name="And I click on the Utför button" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="4.021144414">
         </testcase>
-        <testcase name="Then the money is substracted from the account" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="6.104493786">
+        <testcase name="Then the money is substracted from the account" classname="swedenbank;i-buy-something-at-ica-for-105kr-and-that-amount-substracts-from-kortkonto---7687-020127" time="6.054977592">
         </testcase>
     </testsuite>
     <testsuite name="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us4.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us4.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="5.706299768">
+        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="5.104565694">
         </testcase>
-        <testcase name="And I am on the &apos;Överföring mina konton&apos; page" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="1.076601349">
+        <testcase name="And I am on the &apos;Överföring mina konton&apos; page" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="1.081343742">
         </testcase>
-        <testcase name="When I enter my Kortkonto - 1112-491580 from my give-konto" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.006724856">
+        <testcase name="When I enter my Kortkonto - 1112-491580 from my give-konto" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.007452438">
         </testcase>
-        <testcase name="And I enter 200 kronor" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.0015511">
+        <testcase name="And I enter 200 kronor" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.012177858">
         </testcase>
-        <testcase name="And I enter my Slösa - 9324-506032 konto to my get-konto" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.017458539">
+        <testcase name="And I enter my Slösa - 9324-506032 konto to my get-konto" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.011151306">
         </testcase>
-        <testcase name="And I write a message - 200 kronor från kortkonto till slösa kontot" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.014187415">
+        <testcase name="And I write a message - 200 kronor från kortkonto till slösa kontot" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.018251834">
         </testcase>
-        <testcase name="And I click on the &apos;Utför&apos; button" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="4.014189554">
+        <testcase name="And I click on the &apos;Utför&apos; button" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="4.016688122">
         </testcase>
-        <testcase name="Then the money is tranfered" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="6.077061078">
+        <testcase name="Then the money is tranfered" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="6.086149756">
         </testcase>
     </testsuite>
-    <testsuite name="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" tests="10" failures="0" skipped="0">
+    <testsuite name="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" tests="10" failures="1" skipped="9">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us7.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us7.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="5.955084376">
+        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="15.015542686">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
         </testcase>
-        <testcase name="And I am on the my-accounts page" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="1.062976727">
+        <testcase name="And I am on the my-accounts page" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="When I choose to create a new account" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="3.002635631">
+        <testcase name="When I choose to create a new account" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And call the account Lönekonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="0.000547825">
+        <testcase name="And call the account Lönekonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then the Lönekonto is created" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="4.023666789">
+        <testcase name="Then the Lönekonto is created" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="When I choose to change the name of the account" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="3.01604386">
+        <testcase name="When I choose to change the name of the account" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And rename it to Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="0.001930429">
+        <testcase name="And rename it to Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then the account is changed to Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="4.019460814">
+        <testcase name="Then the account is changed to Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="When I choose to delete the Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="4.005013386">
+        <testcase name="When I choose to delete the Sparkonto" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then the Sparkonto account is deleted" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account" time="4.013028901">
+        <testcase name="Then the Sparkonto account is deleted" classname="swedenbank;i-want-to-create-an-account-and-call-it-lönekonto-rename-the-account-to-sparkonto-and-then-delete-the-sparkonto-account">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" tests="11" failures="0" skipped="0">
+    <testsuite name="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" tests="11" failures="1" skipped="3">
         <properties>
-            <property name="URI" value="C:/JavaScript/Bank-master/Bank-master/features/us9.feature">
+            <property name="URI" value="C:/Users/Studerande/Desktop/swedenbank-PPAAFS/features/us9.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="5.797808275">
+        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="5.020050034">
         </testcase>
-        <testcase name="And I am on the transfer page" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="1.076881035">
+        <testcase name="And I am on the transfer page" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="1.05144173">
         </testcase>
-        <testcase name="When I choose Kortkonto - 7687-020127 from dropdownmeny" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.009825773">
+        <testcase name="When I choose Kortkonto - 7687-020127 from dropdownmeny" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.014334162">
         </testcase>
-        <testcase name="And I choose option from other accounts" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.028608329">
+        <testcase name="And I choose option from other accounts" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.020276128">
         </testcase>
-        <testcase name="And I enter Olofs account 7831-329257" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.024093587">
+        <testcase name="And I enter Olofs account 7831-329257" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.008746294">
         </testcase>
-        <testcase name="And I enter the amount of 189 kronor to transfer" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.022564297">
+        <testcase name="And I enter the amount of 189 kronor to transfer" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.025417638">
         </testcase>
-        <testcase name="And I write a message - Olof, här får du 189 kronor från Pelle" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.012227905">
+        <testcase name="And I write a message - Olof, här får du 189 kronor från Pelle" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.014651064">
         </testcase>
-        <testcase name="And I click on the button Utför" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="5.016513424">
+        <testcase name="And I click on the button Utför" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="3.02065794">
+            <failure message="NoSuchAlertError: no such alert">NoSuchAlertError: no such alert
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.14393 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+From: Task: WebDriver.switchTo().alert()
+    at thenableWebDriverProxy.schedule (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at TargetLocator.alert (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\node_modules\selenium-webdriver\lib\webdriver.js:1867:29)
+    at createWorld.&lt;anonymous&gt; (C:\Users\Studerande\Desktop\swedenbank-PPAAFS\step-definitions\us9.js:47:27)</failure>
         </testcase>
-        <testcase name="Then the money is substracted from Pelles account" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="5.073284039">
+        <testcase name="Then the money is substracted from Pelles account" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And I login as Olof" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="4.061401251">
+        <testcase name="And I login as Olof" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then I verify if the money is tranfered to Olofs account" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257" time="5.013411651">
+        <testcase name="Then I verify if the money is tranfered to Olofs account" classname="swedenbank;i-want-to-tranfer-189kr-from-pelles-kortkonto---7687-020127-to-olofs-account-7831-329257">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
