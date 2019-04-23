@@ -16,16 +16,23 @@ module.exports = function(){
       });
 
       this.When(/^I click on the loggainbutton$/, async function () {
-        //You can easily find the xpath by going to the inspect element sidebar on Chrome and right clicking on the element you want.
-        // The right click drop down menu should have an option "copy xpath".
-        driver.sleep(1000);
-        driver.findElement(By.xpath("/html/body/main/div/article/form/button")).click();
-        driver.sleep(1000);
+        
+        await sleep(1000);
+        let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
+        await LoginBtn.click();
+        await sleep(3000);
 
-  });
+   });
     
 
-      this.Then(/^I can see my accountpage$/, async function () {       
+      this.Then(/^I can see my accountpage$/, async function () {    
+        await sleep(1000);
+        let guessLetters = await $('.username');
+        let contents = await guessLetters.getText();
+        // check that the pressedKey letter is included (as a capital)
+        console.warn(contents)
+        console.warn('Pelle')
+        assert.equal(contents, 'Pelle', 'Fel användarnamn') 
        // await drive.getElement(By.css('[data-target = #addAccountModel"]'))
         await sleep(3000);
       });
