@@ -8,5 +8,5 @@ And I enter insättning from dropdownmeny
 And I enter an amount of 1000 kronor
 And I write a message - Lön 1000 kronor
 And I click on the Utför button to transfer the money
-Then 22000 kronor is transfered to Arnes Lönekonto
+Then 1000 kronor is transfered to Arnes Lönekonto
 And trallala
