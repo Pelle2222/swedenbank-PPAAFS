@@ -8,11 +8,11 @@ module.exports = function(){
 
 
       this.When(/^I enter the username "Pelle"$/, async function () {      
-        driver.findElement(By.id("username")).sendKeys("Pelle"); 
+        await driver.findElement(By.id("username")).sendKeys("Pelle"); 
       });
 
       this.When(/^I enter the password "123456"$/, async function () {      
-        driver.findElement(By.id("password")).sendKeys("123456"); 
+        await driver.findElement(By.id("password")).sendKeys("123456"); 
       });
 
       this.When(/^I click on the loggainbutton$/, async function () {
@@ -20,7 +20,7 @@ module.exports = function(){
         await sleep(1000);
         let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
-        await sleep(3000);
+        await sleep(1000);
 
    });
     
@@ -33,7 +33,6 @@ module.exports = function(){
         console.warn(contents)
         console.warn('Pelle')
         assert.equal(contents, 'Pelle', 'Fel användarnamn') 
-       // await drive.getElement(By.css('[data-target = #addAccountModel"]'))
         await sleep(3000);
       });
 
