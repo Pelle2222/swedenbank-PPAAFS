@@ -9,4 +9,4 @@ And I enter an amount of 1000 kronor
 And I write a message - Lön 1000 kronor
 And I click on the Utför button to transfer the money
 Then 1000 kronor is transfered to Arnes Lönekonto
-And trallala
+And check the amount after transaction

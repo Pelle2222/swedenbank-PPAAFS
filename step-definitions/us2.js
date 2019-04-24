@@ -97,7 +97,7 @@ module.exports = function(){
       });
 
       let balanceAfter;
-      this.Then(/^trallala$/, async function(){
+      this.Then(/^check the amount after transaction$/, async function(){
         // Goto the account page
         await helpers.loadPage('http://localhost:3000/#my-accounts');
         // Grab all lines with account info
