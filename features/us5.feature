@@ -1,5 +1,5 @@
-Feature Swedenbank
-Scenario As a customer I want to see the latest ten transactions in my accounts
+Feature: Swedenbank
+Scenario: As a customer I want to see the latest ten transactions in my accounts
 Given I have logged as Sven
 And I am on the start page
 When I choose Mina konton button
