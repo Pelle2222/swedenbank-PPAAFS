@@ -64,7 +64,7 @@ module.exports = function(){
         
         balance = balance / 1; // converting to number
         assert.equal(balance, '-105', 'Fel -105 kronor skall ha dragits från Kortkontot') 
-        console.log("THE AMOUNT JOHANS TRANSFERED SHOULD BE: " +expectedAmount+" AND IS:", balance);
+        console.log("THE AMOUNT THAT IS WITHDRAWN FROM PELLES KORTKONTO SHOULD BE: " +expectedAmount+" AND IS:", balance);
       });
 
      
