@@ -104,6 +104,7 @@ module.exports = function(){
         let accounts = await $('section.accounts table tbody tr');
         let salaryAccount = await $('body > main > div > article > section.accounts.row.px-6 > table > tbody > tr:nth-child(1) > td.text-right');
         let balance = await salaryAccount.getText()
+        //Benjamins ändringar
         // Find the salary account ("Lönekonto")
         // let salaryAccount;
         // for(let account of accounts){
