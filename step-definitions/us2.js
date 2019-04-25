@@ -102,17 +102,19 @@ module.exports = function(){
         await helpers.loadPage('http://localhost:3000/#my-accounts');
         // Grab all lines with account info
         let accounts = await $('section.accounts table tbody tr');
+        let salaryAccount = await $('body > main > div > article > section.accounts.row.px-6 > table > tbody > tr:nth-child(1) > td.text-right');
+        let balance = await salaryAccount.getText()
         // Find the salary account ("Lönekonto")
-        let salaryAccount;
-        for(let account of accounts){
-          let text = await account.getText();
-          if(text.includes('Lönekonto')){
-            salaryAccount = account;
-          }
-        }
-        // td with balance
-        let balanceTd = await salaryAccount.findElement(by.css('td:nth-child(3)'));
-        let balance = await balanceTd.getText();
+        // let salaryAccount;
+        // for(let account of accounts){
+        //   let text = await account.getText();
+        //   if(text.includes('Lönekonto')){
+        //     salaryAccount = account;
+        //   }
+        // }
+        // // td with balance
+        // let balanceTd = await salaryAccount.findElement(by.css('td:nth-child(3)'));
+        // let balance = await balanceTd.getText();
         balance = balance.replace(/\D/g,'') / 100; // converting to number
         console.log("GOT THE BALANCE OF THE SALARY ACCOUNT BEFORE TRANSFER", balanceBefore);
         console.log("GOT THE BALANCE OF THE SALARY ACCOUNT AFTER TRANSFER", balance);
