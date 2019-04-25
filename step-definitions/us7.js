@@ -41,8 +41,8 @@ module.exports = function(){
         let accountName = await $('body > main > div > article > section.accounts.row.px-6 > table > tbody > tr:nth-child(3) > th > a');
         let balance = await accountName.getText()
         
-        assert.equal(balance, 'Lönekonto', 'Fel namnet skall vara Lönekonto') 
-        console.log("THE NAME OF THE NEW ACCOUNT SHOULD BY: " +expectedText+" AND IS: ", balance);
+        assert.equal(balance, 'Lönekonto', 'Fel namnet skall vara Lönekonto'); 
+        console.log("THE NAME OF THE NEW ACCOUNT SHOULD BE: " +expectedText+" AND IS:", balance);
         
       });
 
@@ -70,8 +70,8 @@ module.exports = function(){
         let accountName = await $('body > main > div > article > section.accounts.row.px-6 > table > tbody > tr:nth-child(3) > th > a');
         let balance = await accountName.getText()
         
-        assert.equal(balance, 'Sparkonto', 'Fel namnet skall vara Sparkonto') 
-        console.log("THE NAME OF THE NEW ACCOUNT SHOULD BY: " +nyexpectedText+" AND IS: ", balance);
+        assert.equal(balance, 'Sparkonto', 'Fel namnet skall vara Sparkonto'); 
+        console.log("THE NAME OF THE NEW ACCOUNT SHOULD BE: " +nyexpectedText+" AND IS:", balance);
       });
 
       this.When(/^I choose to delete the Sparkonto$/, async function () {
