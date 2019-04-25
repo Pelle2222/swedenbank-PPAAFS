@@ -11,9 +11,6 @@ module.exports = function(){
         let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
         await sleep(1000);
-        //await sleep(1000);
-        //driver.findElement(By.xpath("/html/body/main/div/article/form/button")).click();
-        //await sleep(1000);
         
       });
 
@@ -54,6 +51,7 @@ module.exports = function(){
        balance = balance / 1; // converting to number .replace(/\D/g,'') / 1
        
         //Skriver ut summan på rad 10
+        assert.equal(balance, '-200', 'Fel Summan skall vara -200') 
         console.log("PÅ RAD 10 ÄR MEDDELANDET TEST OCH SUMMAN SKA VARA: " +radTio+ " OCH ÄR:", balance);
          
        });
