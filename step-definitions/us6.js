@@ -40,16 +40,17 @@ module.exports = function(){
        let salarySum;
        for(let account of history){
          let text = await account.getText();
-         if(text.includes('Lön')){ //Test är på första kolumnen, rad 10
+         if(text.includes('Lön')){ //Lön är på första kolumnen, rad 11
            salarySum = account;
          }
        }
        // td with balance
        let balanceTd = await salarySum.findElement(by.css('td:nth-child(2)'));
        let balance = await balanceTd.getText();
-       balance = balance / 1; // converting to number .replace(/\D/g,'') / 1
+       balance = balance / 1; // converting to number
        
         //Skriver ut summan på rad 11
+        assert.equal(balance, '500000', 'Fel Summan skall vara 500000') 
         console.log("PÅ RAD 11 ÄR MEDDELANDET Lön OCH SUMMAN SKA VARA: " +radElva+ " OCH ÄR:", balance);
       });
 
