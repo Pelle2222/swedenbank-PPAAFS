@@ -27,8 +27,8 @@ module.exports = function(){
       });
 
       this.When(/^I enter uttag from dropdownmeny$/, async function () {
-        driver.findElement({id: 'depositOrWithdraw'});// select dropdown element you wish to select
-        await sleep(1000);
+        await driver.findElement({id: 'depositOrWithdraw'});// select dropdown element you wish to select
+        
         driver.findElement({id: 'depositOrWithdraw'}).sendKeys('Uttag');
         await sleep(1000);
       });
