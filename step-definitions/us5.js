@@ -48,11 +48,11 @@ module.exports = function(){
        // td with balance
        let balanceTd = await salarySum.findElement(by.css('td:nth-child(2)'));
        let balance = await balanceTd.getText();
-       balance = balance / 1; // converting to number .replace(/\D/g,'') / 1
+       balance = balance / 1; // converting to number 
        
         //Skriver ut summan på rad 10
-        assert.equal(balance, '-200', 'Fel Summan skall vara -200') 
+        
         console.log("PÅ RAD 10 ÄR MEDDELANDET TEST OCH SUMMAN SKA VARA: " +radTio+ " OCH ÄR:", balance);
-         
+        assert.equal(balance, '-200', 'Fel Summan skall vara -200') 
        });
     }

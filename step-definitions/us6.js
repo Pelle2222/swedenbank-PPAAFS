@@ -50,8 +50,8 @@ module.exports = function(){
        balance = balance / 1; // converting to number
        
         //Skriver ut summan på rad 11
-        assert.equal(balance, '500000', 'Fel Summan skall vara 500000') 
         console.log("PÅ RAD 11 ÄR MEDDELANDET Lön OCH SUMMAN SKA VARA: " +radElva+ " OCH ÄR:", balance);
+        assert.equal(balance, '500000', 'Fel Summan skall vara 500000') 
       });
 
 

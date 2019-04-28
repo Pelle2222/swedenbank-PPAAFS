@@ -33,8 +33,9 @@ module.exports = function(){
           let balance = await spendAccount.getText()
         
           balance = balance / 1; // converting to number
-          assert.equal(balance, '-200', 'Fel -200 kronor skall ha dragits från Swagerts konto') 
+          
           console.log("PÅ 5:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +loneKonto+" OCH ÄR:", balance);
+          assert.equal(balance, '-200', 'Fel -200 kronor skall ha dragits från Swagerts konto') 
          
         });
         let sparKonto = 300;
@@ -47,8 +48,9 @@ module.exports = function(){
           let balance = await spendAccount.getText()
         
           balance = balance / 1; // converting to number
-          assert.equal(balance, '300', 'Fel 300 kronor skall ha dragits från Swagerts konto') 
+          
           console.log("PÅ 1:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +sparKonto+" OCH ÄR:", balance);
+          assert.equal(balance, '300', 'Fel 300 kronor skall ha dragits från Swagerts konto') 
         });
         let loneTwoKonto = '3059-923352';
         this.Then(/^I verify my last accounts accountnumber from my accounts$/, async function () {
@@ -59,8 +61,9 @@ module.exports = function(){
            let balance = await spendAccount.getText()
          
            //balance = balance / 1; // converting to number
-           assert.equal(balance, '3059-923352', 'Fel nummret skall vara 3059-923352') 
+           
            console.log("KONTONUMMRET I FÖRSTA RADEN AV MINA KONTON SKALL VARA: " +loneTwoKonto+" OCH ÄR:", balance);
+           assert.equal(balance, '3059-923352', 'Fel nummret skall vara 3059-923352') 
 
         });
  

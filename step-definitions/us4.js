@@ -72,8 +72,9 @@ module.exports = function(){
         let balance = await spendAccount.getText()
         
         balance = balance / 1; // converting to number
-        assert.equal(balance, '200', 'Fel 200 kronor skall ha lagts till Slösakontot') 
+        
         console.log("THE AMOUNT ON PELLES SPENDACCOUNT SHOULD BE: " +expectedAmount+" AND IS:", balance);
+        assert.equal(balance, '200', 'Fel 200 kronor skall ha lagts till Slösakontot')
       });
 
 }

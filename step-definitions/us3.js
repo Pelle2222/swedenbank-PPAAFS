@@ -61,10 +61,9 @@ module.exports = function(){
         let accounts = await $('section.accounts table tbody tr');
         let cardAccount = await $('body > main > div > article > section.only-if-logged-in.start-history.row.px-2 > table > tbody > tr:nth-child(1) > td:nth-child(3)');
         let balance = await cardAccount.getText()
-        
         balance = balance / 1; // converting to number
-        assert.equal(balance, '-105', 'Fel -105 kronor skall ha dragits från Kortkontot') 
         console.log("THE AMOUNT THAT IS WITHDRAWN FROM PELLES KORTKONTO SHOULD BE: " +expectedAmount+" AND IS:", balance);
+        assert.equal(balance, '-105', 'Fel -105 kronor skall ha dragits från Kortkontot') 
       });
 
      

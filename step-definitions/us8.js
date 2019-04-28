@@ -26,40 +26,40 @@ module.exports = function(){
       this.When(/^I choose the name Lönekonto as my new account$/, async function () {
         await sleep(1000);
         driver.findElement(By.id("newAccountName")).sendKeys("Lönekonto"); 
-        await sleep(2000);
+        await sleep(1000);
       });
 
       this.Then(/^an account is created called Lönekonto and an accountnumber is automatically created$/, async function () {
         await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); //Fixa
-        await sleep(2000);
+        await sleep(1000);
       });
 
       this.When(/^I choose the name Kortkonto as my new account$/, async function () {
         await sleep(1000);
         driver.findElement(By.id("newAccountName")).sendKeys("Kortkonto"); 
-        await sleep(2000);
+        await sleep(1000);
       });
 
       this.Then(/^an account is created called Kortkonto and an accountnumber is automatically created$/, async function () {
         await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); //Fixa
-        await sleep(2000);
+        await sleep(1000);
       });
 
       this.When(/^I choose the name Sparkonto as my new account$/, async function () {
         await sleep(1000);
         driver.findElement(By.id("newAccountName")).sendKeys("Sparkonto"); 
-        await sleep(2000);
+        await sleep(1000);
       });
 
       let sparSumma = 0;
       this.Then(/^an account is created called Sparkonto and an accountnumber is automatically created$/, async function () {
         await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); //Fixa
-        await sleep(2000);
+        await sleep(1000);
 
          
          // Grab all lines with account info
          let accounts = await $('section.accounts table tbody tr');
-         // Find the salary account ("Lönekonto")
+         // Find the salary account ("Sparkonto")
          let salaryAccount;
          for(let account of accounts){
            let text = await account.getText();
@@ -72,6 +72,8 @@ module.exports = function(){
          let balance = await balanceTd.getText();
          balance = balance.replace(/\D/g,'') / 100; // converting to number
          console.log("PÅ RADEN MED KORTKONTOT SKA SUMMAN VARA: " +sparSumma+ " OCH SUMMAN ÄR:", balance);
+         assert.equal(balance, '0', 'Fel summan ska vara 0 kronor');
+
  
       });
 

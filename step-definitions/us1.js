@@ -33,7 +33,7 @@ module.exports = function(){
         console.warn(contents)
         console.warn('Pelle')
         assert.equal(contents, 'Pelle', 'Fel användarnamn') 
-        await sleep(3000);
+        await sleep(1000);
       });
 
       

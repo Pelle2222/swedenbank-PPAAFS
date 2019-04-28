@@ -43,7 +43,7 @@ module.exports = function(){
 
   this.Given(/^I am on the simulate-page$/, async function () {
     await helpers.loadPage('http://localhost:3000/#simulate');
-    await sleep(2000);
+    await sleep(1000);
   });
 
   this.When(/^I enter my Lönekonto "([^"]*)" from dropdownmeny$/, async function (kontonr) {
@@ -62,7 +62,7 @@ module.exports = function(){
     driver.findElement({id: 'sum'});
             await sleep(1000);
             driver.findElement({id: 'sum'}).sendKeys('22000');
-            await sleep(2000);
+            await sleep(1000);
     
   });
   this.When(/^I write a message \- Lön (\d+) kronor$/, async function (arg1) {
@@ -90,6 +90,7 @@ module.exports = function(){
     let balance = await salaryAccount.getText()
     balance = balance.replace(/\D/g,'') / 100; // converting to number
     console.log("GOT THE AMOUNT OF THE SALYRY:", balance - balanceBefore);
+    assert.equal(balance - balanceBefore, '22000', 'Fel summa lönen ska vara 22000 kr') 
   });
 
 
