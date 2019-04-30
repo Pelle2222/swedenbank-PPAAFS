@@ -1,0 +1,70 @@
+{
+  "data": {
+    "username": "Johan",
+    "myFile": "users/Johan-123456",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 93780,
+        "history": [
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-30 12:52"
+          },
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-28 14:00",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-28 13:58",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-28 13:57",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-28 13:55",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Telia 1000 kronor phone bill",
+            "amount": -1000,
+            "time": "2019-04-25 13:51",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Test",
+            "amount": -120,
+            "time": "2019-04-25 13:25",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Telia",
+            "amount": -100,
+            "time": "2019-04-25 10:23",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön",
+            "amount": 100000,
+            "time": "2019-04-25 10:22",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "8369-774922",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

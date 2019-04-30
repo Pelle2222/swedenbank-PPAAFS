@@ -1,0 +1,76 @@
+{
+  "data": {
+    "username": "Vanessa",
+    "myFile": "users/Vanessa-333333",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 35500,
+        "history": [
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:23"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:21",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:19",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:14",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:12",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 13:03",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-30 12:59",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-28 18:55",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -500,
+            "time": "2019-04-28 11:34",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Pengar från början",
+            "amount": 40000,
+            "time": "2019-04-25 10:26",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "7466-473199",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

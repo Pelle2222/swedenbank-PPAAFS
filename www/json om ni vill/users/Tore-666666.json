@@ -1,0 +1,16 @@
+{
+  "data": {
+    "username": "Tore",
+    "myFile": "users/Tore-666666",
+    "accounts": [
+      {
+        "name": "Slösa",
+        "balance": 0,
+        "history": [],
+        "accountNumber": "2889-049866",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

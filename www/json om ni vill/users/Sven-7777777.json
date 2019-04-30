@@ -1,0 +1,135 @@
+{
+  "data": {
+    "username": "Sven",
+    "myFile": "users/Sven-7777777",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 494500,
+        "history": [
+          {
+            "label": "500 kronor",
+            "amount": -500,
+            "time": "2019-04-24 13:48"
+          },
+          {
+            "label": "300 kronor från Peter till Pelle",
+            "amount": -300,
+            "time": "2019-04-24 13:46"
+          },
+          {
+            "label": "2500 kronor från Peter till Pelle",
+            "amount": -2500,
+            "time": "2019-04-24 13:46"
+          },
+          {
+            "label": "100 kronor från Peter till Pelle",
+            "amount": -100,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "1200 kronor från Peter till Pelle",
+            "amount": -1200,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "900 kronor från Peter till Pelle",
+            "amount": -900,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "600 kronor från Peter till Pelle",
+            "amount": -600,
+            "time": "2019-04-24 13:43"
+          },
+          {
+            "label": "100 kronor från Peter till Pelle",
+            "amount": 100,
+            "time": "2019-04-24 13:43"
+          },
+          {
+            "label": "700 från Kortkonto till Lönekonto",
+            "amount": 700,
+            "time": "2019-04-24 13:42"
+          },
+          {
+            "label": "Test",
+            "amount": -200,
+            "time": "2019-04-24 13:39"
+          },
+          {
+            "label": "Lön",
+            "amount": 500000,
+            "time": "2019-04-24 13:38"
+          }
+        ],
+        "accountNumber": "9090-671353",
+        "⚙": "Account"
+      },
+      {
+        "name": "Kortkonto",
+        "balance": 15500,
+        "history": [
+          {
+            "label": "500 kronor",
+            "amount": 500,
+            "time": "2019-04-24 13:48"
+          },
+          {
+            "label": "300 kronor från Peter till Pelle",
+            "amount": 300,
+            "time": "2019-04-24 13:46"
+          },
+          {
+            "label": "2500 kronor från Peter till Pelle",
+            "amount": 2500,
+            "time": "2019-04-24 13:46"
+          },
+          {
+            "label": "100 kronor från Peter till Pelle",
+            "amount": 100,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "1200 kronor från Peter till Pelle",
+            "amount": 1200,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "900 kronor från Peter till Pelle",
+            "amount": 900,
+            "time": "2019-04-24 13:44"
+          },
+          {
+            "label": "600 kronor från Peter till Pelle",
+            "amount": 600,
+            "time": "2019-04-24 13:43"
+          },
+          {
+            "label": "100 kronor från Peter till Pelle",
+            "amount": -100,
+            "time": "2019-04-24 13:43"
+          },
+          {
+            "label": "700 från Kortkonto till Lönekonto",
+            "amount": -700,
+            "time": "2019-04-24 13:42"
+          },
+          {
+            "label": "Test",
+            "amount": 200,
+            "time": "2019-04-24 13:39"
+          },
+          {
+            "label": "Slösa",
+            "amount": 10000,
+            "time": "2019-04-24 13:39"
+          }
+        ],
+        "accountNumber": "6716-631306",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "data": {
+    "username": "Swagert",
+    "myFile": "users/Swagert-131313",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 98600,
+        "history": [
+          {
+            "label": "Test",
+            "amount": -1200,
+            "time": "2019-04-26 11:26"
+          },
+          {
+            "label": "nytt",
+            "amount": -200,
+            "time": "2019-04-26 11:26"
+          },
+          {
+            "label": "Lön",
+            "amount": 100000,
+            "time": "2019-04-26 11:25"
+          }
+        ],
+        "accountNumber": "3059-923352",
+        "⚙": "Account"
+      },
+      {
+        "name": "Sparkonto",
+        "balance": 1700,
+        "history": [
+          {
+            "label": "Spara",
+            "amount": 300,
+            "time": "2019-04-26 11:28"
+          },
+          {
+            "label": "Test",
+            "amount": 1200,
+            "time": "2019-04-26 11:26"
+          },
+          {
+            "label": "nytt",
+            "amount": 200,
+            "time": "2019-04-26 11:26"
+          }
+        ],
+        "accountNumber": "1452-100586",
+        "⚙": "Account"
+      },
+      {
+        "name": "Kortkonto",
+        "balance": 19700,
+        "history": [
+          {
+            "label": "Spara",
+            "amount": -300,
+            "time": "2019-04-26 11:28"
+          },
+          {
+            "label": "Från Mamma",
+            "amount": 20000,
+            "time": "2019-04-26 11:27"
+          }
+        ],
+        "accountNumber": "3394-510204",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}
