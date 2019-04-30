@@ -5,11 +5,11 @@ module.exports = function(){
     this.Given(/^I have logged as Tore$/, async function () {
 
         //Först loggar jag in
-        await helpers.loadPage('http://localhost:3000/#login');
-                  
-          driver.findElement(By.id("username")).sendKeys("Tore");   //Tore har bara ett konto som heter Slösa
-          driver.findElement(By.id("password")).sendKeys("666666"); 
-          await sleep(1000);
+        await sleep(1000);
+        await helpers.loadPage('http://localhost:3000/#login');         
+        await driver.findElement(By.id("username")).sendKeys("Tore");   //Tore har bara ett konto som heter Slösa från början
+        await driver.findElement(By.id("password")).sendKeys("666666"); 
+        await sleep(1000);
         let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
         await sleep(1000);
@@ -25,7 +25,7 @@ module.exports = function(){
 
       this.When(/^I choose the name Lönekonto as my new account$/, async function () {
         await sleep(1000);
-        driver.findElement(By.id("newAccountName")).sendKeys("Lönekonto"); 
+        await driver.findElement(By.id("newAccountName")).sendKeys("Lönekonto"); 
         await sleep(1000);
       });
 
@@ -36,24 +36,25 @@ module.exports = function(){
 
       this.When(/^I choose the name Kortkonto as my new account$/, async function () {
         await sleep(1000);
-        driver.findElement(By.id("newAccountName")).sendKeys("Kortkonto"); 
+        await driver.findElement(By.id("newAccountName")).sendKeys("Kortkonto"); 
         await sleep(1000);
       });
 
       this.Then(/^an account is created called Kortkonto and an accountnumber is automatically created$/, async function () {
-        await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); //Fixa
+        await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); 
         await sleep(1000);
       });
 
       this.When(/^I choose the name Sparkonto as my new account$/, async function () {
         await sleep(1000);
-        driver.findElement(By.id("newAccountName")).sendKeys("Sparkonto"); 
+        await driver.findElement(By.id("newAccountName")).sendKeys("Sparkonto"); 
         await sleep(1000);
       });
 
       let sparSumma = 0;
       this.Then(/^an account is created called Sparkonto and an accountnumber is automatically created$/, async function () {
-        await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click(); //Fixa
+        
+        await driver.findElement(By.xpath("//*[@id=\"addAccountModal\"]/div/div/div[3]/button[2]")).click();
         await sleep(1000);
 
          
@@ -71,8 +72,8 @@ module.exports = function(){
          let balanceTd = await salaryAccount.findElement(by.css('td:nth-child(3)'));
          let balance = await balanceTd.getText();
          balance = balance.replace(/\D/g,'') / 100; // converting to number
-         console.log("PÅ RADEN MED KORTKONTOT SKA SUMMAN VARA: " +sparSumma+ " OCH SUMMAN ÄR:", balance);
-         assert.equal(balance, '0', 'Fel summan ska vara 0 kronor');
+         //console.log("PÅ RADEN MED KORTKONTOT SKA SUMMAN VARA: " +sparSumma+ " OCH SUMMAN ÄR:", balance);
+         assert.equal(balance, '0', 'PÅ RADEN MED KORTKONTOT SKA SUMMAN VARA: ' +sparSumma+ ' OCH SUMMAN ÄR: ' +balance);
 
  
       });

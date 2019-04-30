@@ -11,6 +11,7 @@ module.exports = function(){
   
 
   this.Given(/^I have logged in as Arne$/, async function () {
+    await sleep(1000);
     await helpers.loadPage('http://localhost:3000/#login');
               
     await driver.findElement(By.id("username")).sendKeys("Arne");   
@@ -75,8 +76,7 @@ module.exports = function(){
     let LoginBtn= await driver.findElement(By.css('form.simulate-form button[type="submit"]'));
     await LoginBtn.click();
     await sleep(1000);
-    //Så här gjorde vi innan
-    //driver.findElement(By.xpath("/html/body/main/div/article/form/div[5]/button")).click();
+    
 
   });
 
@@ -89,8 +89,8 @@ module.exports = function(){
     let salaryAccount = await $('body > main > div > article > section.accounts.row.px-6 > table > tbody > tr:nth-child(1) > td.text-right');
     let balance = await salaryAccount.getText()
     balance = balance.replace(/\D/g,'') / 100; // converting to number
-    console.log("GOT THE AMOUNT OF THE SALYRY:", balance - balanceBefore);
-    assert.equal(balance - balanceBefore, '22000', 'Fel summa lönen ska vara 22000 kr') 
+    //console.log("GOT THE AMOUNT OF THE SALYRY:", balance - balanceBefore);
+    assert.equal(balance - balanceBefore, '22000', 'Fel summa lönen ska vara 22000 kr men är' + balance - balanceBefore +'') ;
   });
 
 

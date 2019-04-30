@@ -2,12 +2,13 @@ let {$, sleep} = require('./funcs');
 
 module.exports = function(){
     this.Given(/^I have logged as Sven$/, async function () {
+        await sleep(1000);
         await helpers.loadPage('http://localhost:3000/#login');
                   
-        driver.findElement(By.id("username")).sendKeys("Sven");   
-        driver.findElement(By.id("password")).sendKeys("7777777"); 
+        await driver.findElement(By.id("username")).sendKeys("Sven");   
+        await driver.findElement(By.id("password")).sendKeys("7777777"); 
         await sleep(1000);
-        let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
+        let LoginBtn = await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
         await sleep(1000);
         
@@ -23,8 +24,8 @@ module.exports = function(){
 
       this.When(/^I choose one of my Kontonamn$/, async function () {
         await sleep(1000);
-        driver.findElement(By.xpath("/html/body/main/div/article/section[1]/table/tbody/tr[1]/th/a")).click();
-        await sleep(1000);
+        await driver.findElement(By.xpath("/html/body/main/div/article/section[1]/table/tbody/tr[1]/th/a")).click();
+        
       });
 
       let radElva = 500000; // Värdet jämförs på slutet
@@ -32,8 +33,7 @@ module.exports = function(){
         await sleep(1000);
         let LoginBtn= await driver.findElement(By.id('show-button'));
         await LoginBtn.click();
-        await sleep(1000);
-
+        
        // Grab all lines with account info
        await sleep(1000);
        let history = await $('section.history table tbody tr');
@@ -50,8 +50,8 @@ module.exports = function(){
        balance = balance / 1; // converting to number
        
         //Skriver ut summan på rad 11
-        console.log("PÅ RAD 11 ÄR MEDDELANDET Lön OCH SUMMAN SKA VARA: " +radElva+ " OCH ÄR:", balance);
-        assert.equal(balance, '500000', 'Fel Summan skall vara 500000') 
+        //console.log("PÅ RAD 11 ÄR MEDDELANDET Lön OCH SUMMAN SKA VARA: " +radElva+ " OCH ÄR:", balance);
+        assert.equal(balance, '500000', 'PÅ RAD 11 SKA SUMMAN VARA: ' +radElva+ ' OCH ÄR: '+ balance) 
       });
 
 

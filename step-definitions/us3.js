@@ -4,18 +4,20 @@ module.exports = function(){
 
   this.Given(/^I have logged in as Pelle$/, async function () {
     //Först loggar jag in
+    await sleep(1000);
     await helpers.loadPage('http://localhost:3000/#login');
                   
-    driver.findElement(By.id("username")).sendKeys("Pelle");   
-    driver.findElement(By.id("password")).sendKeys("123456"); 
-     await sleep(1000);
+    await driver.findElement(By.id("username")).sendKeys("Pelle");   
+    await driver.findElement(By.id("password")).sendKeys("123456"); 
+    await sleep(1000);
     let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
     await LoginBtn.click();
-    await sleep(1000);
+    
     });
 
     this.Given(/^I am on the simulate\-page$/, async function () {
         // Write code here that turns the phrase above into concrete actions
+        await sleep(1000);
         await helpers.loadPage('http://localhost:3000/#simulate');
       }); 
 
@@ -62,8 +64,7 @@ module.exports = function(){
         let cardAccount = await $('body > main > div > article > section.only-if-logged-in.start-history.row.px-2 > table > tbody > tr:nth-child(1) > td:nth-child(3)');
         let balance = await cardAccount.getText()
         balance = balance / 1; // converting to number
-        console.log("THE AMOUNT THAT IS WITHDRAWN FROM PELLES KORTKONTO SHOULD BE: " +expectedAmount+" AND IS:", balance);
-        assert.equal(balance, '-105', 'Fel -105 kronor skall ha dragits från Kortkontot') 
+        assert.equal(balance, '-105', 'THE AMOUNT THAT IS WITHDRAWN FROM PELLES KORTKONTO SHOULD BE: ' +expectedAmount+' AND IS: '+ balance) ;
       });
 
      

@@ -7,10 +7,10 @@ module.exports = function(){
 
       //Först loggar jag in
         await helpers.loadPage('http://localhost:3000/#login');
-                  
-          driver.findElement(By.id("username")).sendKeys("Pelle");   
-          driver.findElement(By.id("password")).sendKeys("123456"); 
-           await sleep(1000);
+        await sleep(1000);        
+        await driver.findElement(By.id("username")).sendKeys("Pelle");   
+        await driver.findElement(By.id("password")).sendKeys("123456"); 
+        await sleep(1000);
         let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
         await sleep(1000);
@@ -24,7 +24,7 @@ module.exports = function(){
       });
 
       //Här väljer jag från vilket konto pengarna ska dras, dropdownmeny
-      this.When(/^I enter my Kortkonto \- (\d+)\-(\d+) from my give\-konto$/, async function (arg1, arg2) {
+      this.When(/^I enter my Kortkonto \- (\d+)\-(\d+)$/, async function (arg1, arg2) {
        
         driver.findElement({id: 'fromAccountNumber'});// select dropdown element you wish to select
         await sleep(1000);
@@ -40,7 +40,7 @@ module.exports = function(){
         await sleep(1000);
       });
       //Här väljer jag till vilket konto pengarna ska överföras, dropdownmeny
-      this.When(/^I enter my Slösa \- (\d+)\-(\d+) konto to my get\-konto$/, async function (arg1, arg2) {
+      this.When(/^I enter my Slösa \- (\d+)\-(\d+) konto/, async function (arg1, arg2) {
         driver.findElement({id: 'toAccountNumber'});// select dropdown element you wish to select
         await sleep(1000);
         driver.findElement({id: 'toAccountNumber'}).sendKeys('Slösa - 9324-506032');
@@ -73,8 +73,8 @@ module.exports = function(){
         
         balance = balance / 1; // converting to number
         
-        console.log("THE AMOUNT ON PELLES SPENDACCOUNT SHOULD BE: " +expectedAmount+" AND IS:", balance);
-        assert.equal(balance, '200', 'Fel 200 kronor skall ha lagts till Slösakontot')
+        //console.log("THE AMOUNT ON PELLES SPENDACCOUNT SHOULD BE: " +expectedAmount+" AND IS:", balance);
+        assert.equal(balance, '200', 'THE AMOUNT ON PELLES SPENDACCOUNT SHOULD BE: ' +expectedAmount+' AND IS: '+ balance)
       });
 
 }

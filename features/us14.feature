@@ -11,4 +11,4 @@ And I choose again to other account than my own
 And I fill again the account number "3091-228901"
 And I change my balance "30001" SEK
 And I press again utför button
-And I should see a message that i cannot transfer over in the last 7 days
+Then I get an errortext on the screen in red

@@ -2,10 +2,11 @@ let {$, sleep} = require('./funcs');
 module.exports = function(){
 
   this.Given(/^I have logged in as Vanessa$/,async function () {
+    await sleep(1000);
     await helpers.loadPage('http://localhost:3000/#login');
               
-    driver.findElement(By.id("username")).sendKeys("Vanessa");   
-    driver.findElement(By.id("password")).sendKeys("333333"); 
+    await driver.findElement(By.id("username")).sendKeys("Vanessa");   
+    await driver.findElement(By.id("password")).sendKeys("333333"); 
     await sleep(1000);
     let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
     await LoginBtn.click();
@@ -76,16 +77,19 @@ module.exports = function(){
 
    this.Then(/^I press again utför button$/,async function () {
     await sleep(1000);
-    driver.findElement(By.xpath("/html/body/main/div/article/form/button")).click();
-    await sleep(1000); 
-     driver.switchTo().alert().accept();
-     await sleep(1000);
-        
+    driver.findElement(By.xpath("/html/body/main/div/article/form/button")).click();   
    });
 
-   this.Then(/^I should see a message that i cannot transfer over in the last (\d+) days$/,async function () {
-  
+   this.Then(/^I get an errortext on the screen in red$/, async function () {
+    let error = await $('body > main > div > article > form > div:nth-child(4) > small');
+    let errorText = await error.getText()
+    assert.equal(errorText, 'Du kan inte överföra över 30000 under de senaste 7 dagarna.', errorText); 
+    await sleep(1000); 
   });
+
+   
+
+   
 
 
    

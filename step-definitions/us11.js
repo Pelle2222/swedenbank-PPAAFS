@@ -2,19 +2,17 @@ let {$, sleep} = require('./funcs');
 module.exports = function(){
 
      this.Given(/^I am in the login page$/,async function () {
+          await sleep(1000);
           await helpers.loadPage('http://localhost:3000/#login');
-
         });
 
 
      this.When(/^I fill my username "([^"]*)"$/,async function (name) {
           await driver.findElement(By.id("username")).sendKeys(name); 
-
         });
 
      this.When(/^I fill my password "([^"]*)"$/,async function (pass) {
           await driver.findElement(By.id("password")).sendKeys(pass); 
-
         });
         
         let loneKonto = -200;
@@ -24,8 +22,6 @@ module.exports = function(){
           await LoginBtn.click();
           await sleep(1000);
 
-          
-
           //I verify the 5th row's sum of my last 5 transaktions
           await sleep(1000);
           let accounts = await $('section.accounts table tbody tr');
@@ -34,8 +30,8 @@ module.exports = function(){
         
           balance = balance / 1; // converting to number
           
-          console.log("PÅ 5:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +loneKonto+" OCH ÄR:", balance);
-          assert.equal(balance, '-200', 'Fel -200 kronor skall ha dragits från Swagerts konto') 
+          //console.log("PÅ 5:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +loneKonto+" OCH ÄR:", balance);
+          assert.equal(balance, '-200', 'PÅ 5:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: ' +loneKonto+ ' OCH ÄR: ' +balance); 
          
         });
         let sparKonto = 300;
@@ -49,8 +45,8 @@ module.exports = function(){
         
           balance = balance / 1; // converting to number
           
-          console.log("PÅ 1:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +sparKonto+" OCH ÄR:", balance);
-          assert.equal(balance, '300', 'Fel 300 kronor skall ha dragits från Swagerts konto') 
+          //console.log("PÅ 1:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: " +sparKonto+" OCH ÄR:", balance);
+          assert.equal(balance, '300', 'PÅ 1:E RADEN MED TRANSAKTIONER SKALL SUMMAN VARA: ' +sparKonto+ ' OCH ÄR: ' +balance); 
         });
         let loneTwoKonto = '3059-923352';
         this.Then(/^I verify my last accounts accountnumber from my accounts$/, async function () {
@@ -62,8 +58,8 @@ module.exports = function(){
          
            //balance = balance / 1; // converting to number
            
-           console.log("KONTONUMMRET I FÖRSTA RADEN AV MINA KONTON SKALL VARA: " +loneTwoKonto+" OCH ÄR:", balance);
-           assert.equal(balance, '3059-923352', 'Fel nummret skall vara 3059-923352') 
+           //console.log("KONTONUMMRET I FÖRSTA RADEN AV MINA KONTON SKALL VARA: " +loneTwoKonto+" OCH ÄR:", balance);
+           assert.equal(balance, '3059-923352', 'KONTONUMMRET I FÖRSTA RADEN AV MINA KONTON SKALL VARA: ' +loneTwoKonto+ ' OCH ÄR: ' +balance); 
 
         });
  

@@ -3,7 +3,9 @@ let {$, sleep} = require('./funcs');
 module.exports = function(){
     
     this.Given(/^I am on the logging page$/, async function () {
+      await sleep(1000);
       await helpers.loadPage('http://localhost:3000/#login');
+      await sleep(1000);
       });
 
 
@@ -29,9 +31,6 @@ module.exports = function(){
         await sleep(1000);
         let guessLetters = await $('.username');
         let contents = await guessLetters.getText();
-        // check that the pressedKey letter is included (as a capital)
-        console.warn(contents)
-        console.warn('Pelle')
         assert.equal(contents, 'Pelle', 'Fel användarnamn') 
         await sleep(1000);
       });

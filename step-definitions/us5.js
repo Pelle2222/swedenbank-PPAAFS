@@ -3,10 +3,11 @@ let {$, sleep} = require('./funcs');
 module.exports = function(){
 
     this.Given(/^I have logged as Sven$/, async function () {
+        await sleep(1000);
         await helpers.loadPage('http://localhost:3000/#login');
                   
-        driver.findElement(By.id("username")).sendKeys("Sven");   
-        driver.findElement(By.id("password")).sendKeys("7777777"); 
+        await driver.findElement(By.id("username")).sendKeys("Sven");   
+        await driver.findElement(By.id("password")).sendKeys("7777777"); 
         await sleep(1000);
         let LoginBtn= await driver.findElement(By.css('form.login-form button[type="submit"]'));
         await LoginBtn.click();
@@ -50,9 +51,7 @@ module.exports = function(){
        let balance = await balanceTd.getText();
        balance = balance / 1; // converting to number 
        
-        //Skriver ut summan på rad 10
-        
-        console.log("PÅ RAD 10 ÄR MEDDELANDET TEST OCH SUMMAN SKA VARA: " +radTio+ " OCH ÄR:", balance);
-        assert.equal(balance, '-200', 'Fel Summan skall vara -200') 
+        //console.log("PÅ RAD 10 ÄR MEDDELANDET TEST OCH SUMMAN SKA VARA: " +radTio+ " OCH ÄR:", balance);
+        assert.equal(balance, '-200', 'PÅ RAD 10 ÄR MEDDELANDET TEST OCH SUMMAN SKA VARA: ' +radTio+ ' OCH ÄR: '+ balance); 
        });
     }
