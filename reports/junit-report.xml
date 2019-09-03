@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" tests="12" failures="0" skipped="0">
+    <testsuite name="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" tests="5" failures="1" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/bmmd/Desktop/swedenbank-PPAAFS/features/us14.feature">
+            <property name="URI" value="C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\features\us1.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Vanessa" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="7.615110982">
+        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="6.89921">
         </testcase>
-        <testcase name="And I am on the start page" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="0.076015068">
+        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.170380899">
         </testcase>
-        <testcase name="When I choose transfer to other account than my own" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="2.002450458">
+        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.1110138">
         </testcase>
-        <testcase name="And I fill the account number &quot;3091-228901&quot;" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="3.295510189">
+        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.191570099">
         </testcase>
-        <testcase name="And I fill balance &quot;500&quot; SEK" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="1.091998637">
-        </testcase>
-        <testcase name="And I press utför button" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="5.000357946">
-        </testcase>
-        <testcase name="Then I should see a transfer approval message to approved" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="1.034663067">
-        </testcase>
-        <testcase name="And I choose again to other account than my own" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="2.001398429">
-        </testcase>
-        <testcase name="And I fill again the account number &quot;3091-228901&quot;" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="2.21829213">
-        </testcase>
-        <testcase name="And I change my balance &quot;30001&quot; SEK" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="1.105444933">
-        </testcase>
-        <testcase name="And I press again utför button" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="1.000893797">
-        </testcase>
-        <testcase name="Then I get an errortext on the screen in red" classname="swedenbank;as-a-customer-i-want-to-have-an-adjustable-weekly-balance-transfer-limits-for-30000-sek" time="1.125735404">
+        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.0856841">
+            <failure message="AssertionError [ERR_ASSERTION]: You must provide passed  - true for PASSED, false for FAILED">AssertionError [ERR_ASSERTION]: You must provide passed  - true for PASSED, false for FAILED
+    at Function.testResult (C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\node_modules\ares-helper\index.js:131:5)
+    at createWorld.&lt;anonymous&gt; (C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\step-definitions\us1.js:52:16)</failure>
         </testcase>
     </testsuite>
 </testsuites>
