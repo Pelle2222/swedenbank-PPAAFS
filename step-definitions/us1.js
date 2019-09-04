@@ -45,16 +45,19 @@ module.exports = function () {
     await sleep(1000);
     let guessLetters = await $('.username');
     let contents = await guessLetters.getText();
-    let result = assert.equal(contents, 'Pelle', 'Fel användarnamn')
+    //let result = assert.equal(contents, 'Pelle', 'Fel användarnamn');
+    assert.equal(contents, 'Pelle', 'Fel användarnamn');
     await sleep(1000);
 
     // ares
     await ares.testResult({ // skicka resultatet till testrapporten
       moduleName: 'Inloggning Swedenbank',
       title: 'Are you logged in?',
-      passed: result, // HÄR skickar jag in mitt resultat ifrån t ex Selenium
+      //passed: result, // HÄR skickar jag in mitt resultat ifrån t ex Selenium
+      passed: (contents == 'Pelle'),
       errorMessage: 'Pelle should be logged in'
     });
+    
     await ares.endModule({ // avslutar vi denna testrapport
       moduleName: 'Inloggning Swedenbank',
     });

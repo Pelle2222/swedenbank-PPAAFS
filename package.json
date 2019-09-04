@@ -10,8 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "ares-helper": "^1.0.3",
+    "cucumber": "^5.1.0",
     "express": "^4.17.1",
+    "js": "^0.1.0",
     "jsonflex": "^1.0.10",
+    "selenium": "^2.20.0",
     "selenium-cucumber-js": "^1.7.0"
   }
 }
