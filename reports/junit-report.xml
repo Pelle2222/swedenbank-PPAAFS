@@ -2,18 +2,18 @@
 <testsuites>
     <testsuite name="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/features/us1.feature">
+            <property name="URI" value="C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\features\us1.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="5.967651819">
+        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="11.9011506">
         </testcase>
-        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.147261697">
+        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.097226201">
         </testcase>
-        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.126203075">
+        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.092106">
         </testcase>
-        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.07836978">
+        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.080113299">
         </testcase>
-        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="4.048986027">
+        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="4.164042499">
         </testcase>
     </testsuite>
 </testsuites>

@@ -13,11 +13,11 @@
             "name": "I am on the logging page",
             "result": {
               "status": "passed",
-              "duration": 5967651819
+              "duration": 11901150600
             },
             "line": 4,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/step-definitions/us1.js:13"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:13"
             }
           },
           {
@@ -26,11 +26,11 @@
             "name": "I enter the username \"Pelle\"",
             "result": {
               "status": "passed",
-              "duration": 147261697
+              "duration": 97226201
             },
             "line": 5,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/step-definitions/us1.js:26"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:26"
             }
           },
           {
@@ -39,11 +39,11 @@
             "name": "I enter the password \"123456\"",
             "result": {
               "status": "passed",
-              "duration": 126203075
+              "duration": 92106000
             },
             "line": 6,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/step-definitions/us1.js:30"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:30"
             }
           },
           {
@@ -52,11 +52,11 @@
             "name": "I click on the loggainbutton",
             "result": {
               "status": "passed",
-              "duration": 2078369780
+              "duration": 2080113299
             },
             "line": 7,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/step-definitions/us1.js:34"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:34"
             }
           },
           {
@@ -65,11 +65,11 @@
             "name": "I can see my accountpage",
             "result": {
               "status": "passed",
-              "duration": 4048986027
+              "duration": 4164042499
             },
             "line": 8,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/step-definitions/us1.js:44"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:44"
             }
           },
           {
@@ -77,11 +77,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 153757772
+              "duration": 124015000
             },
             "hidden": true,
             "match": {
-              "location": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/node_modules/selenium-cucumber-js/runtime/world.js:250"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -94,6 +94,6 @@
     "line": 1,
     "name": "Swedenbank",
     "tags": [],
-    "uri": "/Users/PuchantiQ/Desktop/swedenbank-PPAAFS/features/us1.feature"
+    "uri": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\features\\us1.feature"
   }
 ]
