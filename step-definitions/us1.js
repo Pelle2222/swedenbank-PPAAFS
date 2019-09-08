@@ -62,7 +62,7 @@ module.exports = function () {
       moduleName: 'Inloggning Swedenbank',
     });
 
-    await ares.endTests();  // avslutar hela ares      
+    //await ares.endTests();  // avslutar hela ares      
 
 
   });

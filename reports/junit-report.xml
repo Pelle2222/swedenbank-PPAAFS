@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" tests="5" failures="0" skipped="0">
+    <testsuite name="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\features\us1.feature">
+            <property name="URI" value="C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\features\us2.feature">
             </property>
         </properties>
-        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="11.9011506">
+        <testcase name="Given I have logged in as Arne" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="15.3100431">
         </testcase>
-        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.097226201">
+        <testcase name="And I am on the simulate-page" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.0333055">
         </testcase>
-        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.092106">
+        <testcase name="When I enter my Lönekonto &quot;9170-843779&quot; from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.0568622">
         </testcase>
-        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.080113299">
+        <testcase name="And I enter insättning from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.128034">
         </testcase>
-        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="4.164042499">
+        <testcase name="And I enter an amount of 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.013600701">
+        </testcase>
+        <testcase name="And I write a message - Lön 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.1538215">
+        </testcase>
+        <testcase name="And I click on the Utför button to transfer the money" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.165747499">
+        </testcase>
+        <testcase name="Then 22000 kronor is transfered to Arnes Lönekonto" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.4655103">
         </testcase>
     </testsuite>
 </testsuites>

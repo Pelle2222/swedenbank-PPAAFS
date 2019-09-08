@@ -1,0 +1,180 @@
+{
+  "data": {
+    "username": "Arne",
+    "myFile": "users/Arne-222222",
+    "accounts": [
+      {
+        "name": "Lönekonto",
+        "balance": 308500,
+        "history": [
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 20:11"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 20:03",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 20:02",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 19:56",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 19:51",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 17:43",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 17:39",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 17:38",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 15:41",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 15:36",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 15:26",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 15:25",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 15:06",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-05 14:35",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -22000,
+            "time": "2019-04-23 10:08",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-04-23 09:28",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "",
+            "amount": -22000,
+            "time": "2019-04-23 09:09",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-04-23 09:04",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Tabort",
+            "amount": -22000,
+            "time": "2019-04-22 15:41",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-04-22 15:08",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Test",
+            "amount": -22000,
+            "time": "2019-04-22 15:07",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-04-22 13:27",
+            "accountName": "Lönekonto"
+          }
+        ],
+        "accountNumber": "9170-843779",
+        "⚙": "Account"
+      },
+      {
+        "name": "Spara",
+        "balance": 88000,
+        "history": [
+          {
+            "label": "",
+            "amount": 22000,
+            "time": "2019-04-23 10:08",
+            "accountName": "Spara"
+          },
+          {
+            "label": "",
+            "amount": 22000,
+            "time": "2019-04-23 09:09",
+            "accountName": "Spara"
+          },
+          {
+            "label": "Tabort",
+            "amount": 22000,
+            "time": "2019-04-22 15:41",
+            "accountName": "Spara"
+          },
+          {
+            "label": "Test",
+            "amount": 22000,
+            "time": "2019-04-22 15:07",
+            "accountName": "Spara"
+          }
+        ],
+        "accountNumber": "1998-641163",
+        "⚙": "Account"
+      }
+    ],
+    "⚙": "User"
+  }
+}

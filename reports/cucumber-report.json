@@ -2,74 +2,113 @@
   {
     "elements": [
       {
-        "id": "swedenbank;i-log-in-with-username-\"pelle\"-and-password-\"123456\"",
+        "id": "swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779",
         "keyword": "Scenario",
         "line": 3,
-        "name": "I log in with username \"Pelle\" and password \"123456\"",
+        "name": "I want to have my salary transfered 22000 kronor to my Lönekonto - 9170-843779",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "I am on the logging page",
+            "name": "I have logged in as Arne",
             "result": {
               "status": "passed",
-              "duration": 11901150600
+              "duration": 15310043100
             },
             "line": 4,
             "match": {
-              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:13"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I am on the simulate-page",
+            "result": {
+              "status": "passed",
+              "duration": 1033305500
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:63"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter the username \"Pelle\"",
+            "name": "I enter my Lönekonto \"9170-843779\" from dropdownmeny",
             "result": {
               "status": "passed",
-              "duration": 97226201
-            },
-            "line": 5,
-            "match": {
-              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I enter the password \"123456\"",
-            "result": {
-              "status": "passed",
-              "duration": 92106000
+              "duration": 1056862200
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:30"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:68"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on the loggainbutton",
+            "name": "I enter insättning from dropdownmeny",
             "result": {
               "status": "passed",
-              "duration": 2080113299
+              "duration": 2128034000
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:34"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter an amount of 22000 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 2013600701
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I write a message - Lön 22000 kronor",
+            "result": {
+              "status": "passed",
+              "duration": 2153821500
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:87"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the Utför button to transfer the money",
+            "result": {
+              "status": "passed",
+              "duration": 2165747499
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:92"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I can see my accountpage",
+            "name": "22000 kronor is transfered to Arnes Lönekonto",
             "result": {
               "status": "passed",
-              "duration": 4164042499
+              "duration": 4465510300
             },
-            "line": 8,
+            "line": 11,
             "match": {
-              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us1.js:44"
+              "location": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\step-definitions\\us2.js:101"
             }
           },
           {
@@ -77,7 +116,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 124015000
+              "duration": 216904701
             },
             "hidden": true,
             "match": {
@@ -94,6 +133,6 @@
     "line": 1,
     "name": "Swedenbank",
     "tags": [],
-    "uri": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\features\\us1.feature"
+    "uri": "C:\\Users\\August\\Downloads\\testrapportering\\swedenbank-PPAAFS\\features\\us2.feature"
   }
 ]
