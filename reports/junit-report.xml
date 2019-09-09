@@ -1,25 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" tests="8" failures="0" skipped="0">
+    <testsuite name="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\August\Downloads\testrapportering\swedenbank-PPAAFS\features\us2.feature">
+            <property name="URI" value="C:/Users/August/Downloads/testrapportering/swedenbank-PPAAFS/features/us1.feature">
             </property>
         </properties>
-        <testcase name="Given I have logged in as Arne" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="15.3100431">
+        <testcase name="Given I am on the logging page" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="10.509896499">
         </testcase>
-        <testcase name="And I am on the simulate-page" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.0333055">
+        <testcase name="When I enter the username &quot;Pelle&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.0880773">
         </testcase>
-        <testcase name="When I enter my Lönekonto &quot;9170-843779&quot; from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.0568622">
+        <testcase name="And I enter the password &quot;123456&quot;" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="0.0745355">
         </testcase>
-        <testcase name="And I enter insättning from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.128034">
+        <testcase name="And I click on the loggainbutton" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="2.073168699">
         </testcase>
-        <testcase name="And I enter an amount of 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.013600701">
+        <testcase name="Then I can see my accountpage" classname="swedenbank;i-log-in-with-username-&quot;pelle&quot;-and-password-&quot;123456&quot;" time="3.498231601">
         </testcase>
-        <testcase name="And I write a message - Lön 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.1538215">
+    </testsuite>
+    <testsuite name="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/August/Downloads/testrapportering/swedenbank-PPAAFS/features/us2.feature">
+            </property>
+        </properties>
+        <testcase name="Given I have logged in as Arne" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="13.4577427">
         </testcase>
-        <testcase name="And I click on the Utför button to transfer the money" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.165747499">
+        <testcase name="And I am on the simulate-page" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.0364373">
         </testcase>
-        <testcase name="Then 22000 kronor is transfered to Arnes Lönekonto" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="4.4655103">
+        <testcase name="When I enter my Lönekonto &quot;9170-843779&quot; from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="1.050974499">
+        </testcase>
+        <testcase name="And I enter insättning from dropdownmeny" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.0867212">
+        </testcase>
+        <testcase name="And I enter an amount of 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.000597499">
+        </testcase>
+        <testcase name="And I write a message - Lön 22000 kronor" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.099200899">
+        </testcase>
+        <testcase name="And I click on the Utför button to transfer the money" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.0790271">
+        </testcase>
+        <testcase name="Then 22000 kronor is transfered to Arnes Lönekonto" classname="swedenbank;i-want-to-have-my-salary-transfered-22000-kronor-to-my-lönekonto---9170-843779" time="2.523925799">
+        </testcase>
+    </testsuite>
+    <testsuite name="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/August/Downloads/testrapportering/swedenbank-PPAAFS/features/us4.feature">
+            </property>
+        </properties>
+        <testcase name="Given I have logged in as Pelle" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="13.17004">
+        </testcase>
+        <testcase name="And I am on the &apos;Överföring mina konton&apos; page" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="1.0698943">
+        </testcase>
+        <testcase name="When I enter my Kortkonto - 7687-020127" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="2.0007324">
+        </testcase>
+        <testcase name="And I enter 200 kronor" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="2.001531599">
+        </testcase>
+        <testcase name="And I enter my Slösa - 9324-506032 konto" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="2.001584501">
+        </testcase>
+        <testcase name="And I write a message - 200 kronor från kortkonto till slösa kontot" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="2.0007692">
+        </testcase>
+        <testcase name="And I click on the &apos;Utför&apos; button" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="2.000823">
+        </testcase>
+        <testcase name="Then the money is tranfered" classname="swedenbank;i-transfer-200kr-from-kortkonto---7687-020127-to-slösa---9324-506032" time="3.587146501">
+        </testcase>
+    </testsuite>
+    <testsuite name="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/August/Downloads/testrapportering/swedenbank-PPAAFS/features/us5.feature">
+            </property>
+        </properties>
+        <testcase name="Given I have logged as Sven" classname="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" time="11.249416199">
+        </testcase>
+        <testcase name="And I am on the start page" classname="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" time="0.0613757">
+        </testcase>
+        <testcase name="When I choose Mina konton button" classname="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" time="0.0820808">
+        </testcase>
+        <testcase name="And I choose one of my Kontonamn" classname="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" time="2.002172301">
+        </testcase>
+        <testcase name="Then I can see the latest ten transactions" classname="swedenbank;as-a-customer-i-want-to-see-the-latest-ten-transactions-in-my-accounts" time="3.4546829">
         </testcase>
     </testsuite>
 </testsuites>

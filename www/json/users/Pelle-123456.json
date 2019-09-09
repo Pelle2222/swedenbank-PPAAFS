@@ -5,8 +5,37 @@
     "accounts": [
       {
         "name": "Slösa",
-        "balance": 8422,
+        "balance": 9422,
         "history": [
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": 200,
+            "time": "2019-09-09 10:21"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": 200,
+            "time": "2019-09-09 10:17",
+            "accountName": "Slösa"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": 200,
+            "time": "2019-09-09 10:08",
+            "accountName": "Slösa"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": 200,
+            "time": "2019-09-09 10:03",
+            "accountName": "Slösa"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": 200,
+            "time": "2019-09-09 09:38",
+            "accountName": "Slösa"
+          },
           {
             "label": "200 kronor från kortkonto till slösa kontot",
             "amount": 200,
@@ -271,12 +300,42 @@
       },
       {
         "name": "Kortkonto",
-        "balance": 96763,
+        "balance": 95763,
         "history": [
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": -200,
+            "time": "2019-09-09 10:21"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": -200,
+            "time": "2019-09-09 10:17",
+            "accountName": "Kortkonto"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": -200,
+            "time": "2019-09-09 10:08",
+            "accountName": "Kortkonto"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": -200,
+            "time": "2019-09-09 10:03",
+            "accountName": "Kortkonto"
+          },
+          {
+            "label": "200 kronor från kortkonto till slösa kontot",
+            "amount": -200,
+            "time": "2019-09-09 09:38",
+            "accountName": "Kortkonto"
+          },
           {
             "label": "Olof, här får du 189 kronor från Pelle",
             "amount": -189,
-            "time": "2019-04-23 09:31"
+            "time": "2019-04-23 09:31",
+            "accountName": "Kortkonto"
           },
           {
             "label": "200 kronor från kortkonto till slösa kontot",

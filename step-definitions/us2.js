@@ -29,7 +29,7 @@ module.exports = function () {
       totalTests: 1
     });
 
-    
+
     //await helpers.loadPage('http://localhost:3000/#login');
 
     await driver.findElement(By.id("username")).sendKeys("Arne");
@@ -123,7 +123,7 @@ module.exports = function () {
       moduleName: 'Swedenbank löneinsättning',
     });
 
-    await ares.endTests();  // avslutar hela ares   
+    //   await ares.endTests();  // avslutar hela ares   
   });
 
 

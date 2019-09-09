@@ -5,12 +5,54 @@
     "accounts": [
       {
         "name": "Lönekonto",
-        "balance": 308500,
+        "balance": 462500,
         "history": [
           {
             "label": "Lön 22000 kronor",
             "amount": 22000,
-            "time": "2019-09-08 20:11"
+            "time": "2019-09-09 10:21"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 10:17",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 10:08",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 10:03",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 09:45",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 09:44",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-09 09:14",
+            "accountName": "Lönekonto"
+          },
+          {
+            "label": "Lön 22000 kronor",
+            "amount": 22000,
+            "time": "2019-09-08 20:11",
+            "accountName": "Lönekonto"
           },
           {
             "label": "Lön 22000 kronor",
